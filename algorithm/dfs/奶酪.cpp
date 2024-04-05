@@ -26,8 +26,7 @@ ll h,r;
 int n;
 
 bool myLaw(Point a,Point b){
-    if(a.z>b.z)return false;
-    return true;
+    return a.z<b.z;
 }
 
 bool dfs(int index){
